@@ -1,0 +1,17 @@
+{
+  "name": "Copy GitHub Pull Request Branch Name",
+  "description": "Render a button on Github and click to copy Pull Request branch name",
+  "version": "1",
+  "manifest_version": 2,
+    "permissions": [
+      "activeTab",
+      "https://github.com/*/pull/*"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "browser_action": {}
+}

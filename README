@@ -1,0 +1,9 @@
+To add to Chrome:
+
+1. Clone copy-pr-branch repository
+2. Go to Tools -> Extensions in Chrome
+3. Check "Developer mode"
+4. Click "Load unpacked extension"
+5. Add copy-pr-branch directory
+
+Inspired by: https://github.com/shawnps/copy-branch-name
